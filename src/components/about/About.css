@@ -1,0 +1,40 @@
+div.about {
+    margin-top: 200px;
+    padding-bottom: 20px;
+  }
+ p.value-info{
+    color: gray;
+ }
+ p.key-info{
+    font-weight: 500;
+ }
+  div.each-info{
+    width: 40% !important;
+    min-width: 340px !important;
+    margin-bottom: 5px;
+  }
+  img.about-img {
+    height: 95% !important;
+    width: 95%;
+    object-fit: contain;
+    object-position: top;
+    text-align: end !important;
+  }
+  h1.about-head {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  p.text-desc{
+    color: gray;
+    margin-bottom: 40px;
+    width: 80% !important;
+
+  }
+  .projects-completed{
+    color: #ffbd39;
+  }
+  h5.pro{
+    font-size: 17px !important;
+  }
+  

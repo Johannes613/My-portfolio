@@ -1,0 +1,29 @@
+div.skills{
+    margin: 90px 0px;
+}
+p.label{
+    font-weight: 500;
+    font-size: 20px;
+}
+.progress-ba{
+    height: 10px !important;
+
+}
+div.skill-1{
+    width: 90%;
+}
+div.skill-2{
+    width: 95%;
+}
+div.skill-3{
+    width: 85%;
+}
+div.skill-4{
+    width: 90%;
+}
+div.skill-5{
+    width: 90%;
+}
+div.skill-6{
+    width: 85%;
+}

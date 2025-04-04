@@ -1,0 +1,36 @@
+.each-blog{
+    border-radius: 0 !important;
+    border: none !important;
+    color: white !important;
+    background-color: #ffffff1a !important;
+    height: 590px !important;
+}
+div.blogs{
+    padding-top: 40px;
+    margin-top: 100px;
+}
+img.blog-img{
+    height: 270px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.blog-content{
+    color: gray;
+    line-height: 25px;
+}
+.blog-title{
+    line-height: 35px;
+    font-size: 23px !important;
+}
+p.blog-date{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+p.read-more-text{
+    cursor: pointer;
+
+}
+p.read-more-text:hover{
+    color: var(--primary-color);
+}

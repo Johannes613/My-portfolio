@@ -1,0 +1,46 @@
+p.resume-desc{
+    color: gray;
+    margin-bottom: 40px;
+
+}
+div.resume{
+    margin-top: 70px;
+}
+h1.exp-year{
+    font-size: 24px;
+    font-weight: 650;
+    color: var(--primary-color);
+}
+h1.exp-name{
+    font-size: 26px;
+
+}
+p.exp-place{
+    color: gray;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+div.each-exp{
+    background-color: #ffffff1a;
+    padding: 34px !important;
+    height: max-content;
+}
+p.exp-desc{
+    color: gray;
+    margin-top: 15px;
+    line-height: 27px;
+}
+button.get-started a{
+    text-decoration: none;
+    color: black;
+}
+.get-started a{
+    transition: all 0.4s ease-in-out;
+}
+.get-started:hover a{
+    color: white !important;
+
+}

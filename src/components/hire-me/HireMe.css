@@ -1,0 +1,47 @@
+div.hire-me {
+  margin-top: 160px;
+}
+div.ad-cards {
+  position:inherit;
+}
+div.each-card {
+  background-color: #191919;
+  border-radius: 5px;
+  z-index: 111;
+  height: 140px;
+  margin-bottom: 20px;
+}
+h1.card-stat {
+  color: var(--primary-color);
+  font-weight: 520;
+  font-size: 33px;
+}
+@media (min-width: 1024px) {
+  div.ad-cards {
+    position: absolute;
+    top: -70px;
+    width: 75%;
+  }
+}
+div.contact-left{
+    background-color: #191919;
+    height: 78vh !important;
+
+}
+div.contact-left img{
+    width: 100%;
+    margin: auto;
+    height: 95%;
+    object-fit: contain;
+}
+div.contact-cont{
+    margin-top: 60px !important;
+
+}
+.hire-me-tag,.hire-me-desc{
+  color: white !important;
+}
+
+p.card-name{
+  color: white !important;
+}

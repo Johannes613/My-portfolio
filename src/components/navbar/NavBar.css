@@ -1,0 +1,59 @@
+img.logo-img {
+  width: 150px;
+}
+.nav-link {
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  font-size: 16px !important;
+  color: white !important;
+  position: relative;
+  width: max-content;
+}
+
+.nav-link span {
+  text-align: center !important;
+}
+.nav-link span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 78%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: var(--primary-color);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:hover span::after,
+.nav-link.active span::after {
+  transform: scaleX(1);
+}
+
+div.nav-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: black !important;
+}
+.contact-btns {
+  background: var(--primary-color) !important;
+  border: none !important;
+}
+
+.nav-lin {
+  color: #ffbd39d6 !important;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
+}
+.navbar-toggler-icon {
+  background: url("../../images/icons8-menu-120.png") !important;
+  background-position: center !important;
+  background-size: contain !important;
+  background-size: 90% !important;
+}
