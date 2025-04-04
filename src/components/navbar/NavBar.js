@@ -12,7 +12,7 @@ export default function NavBar() {
           <Navbar.Brand>
             <AnchorLink
               href="/home"
-              className="nav-lin home"
+              className="nav-lin home ms-3 ms-md-5"
               offset="90"
               duration={400}
             >
