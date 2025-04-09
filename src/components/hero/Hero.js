@@ -1,13 +1,13 @@
 import React from "react";
 import "./Hero.css";
 import Carousel from "react-bootstrap/Carousel";
-import ExampleCarouselImage2 from "../../images/10003.webp";
+import ExampleCarouselImage2 from "../../images/my-image-latest.PNG";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function Hero() {
   return (
     <div className="hero w-100" id="home">
-      <div className="container check p-0">
+      <div className="container check p-0"> 
         <Carousel fade className="p-0 ">
           <Carousel.Item
             interval={2500}
