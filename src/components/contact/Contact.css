@@ -73,3 +73,6 @@ p.add-name {
 button.modify-btn{
   letter-spacing: 2px;
 }
+div.contact-left{
+  background-color: black !important;
+}

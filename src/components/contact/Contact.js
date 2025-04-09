@@ -5,7 +5,7 @@ import { Form } from "react-bootstrap";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import img from "../../images/10003.webp"
+import img from  "../../images/my-image-latest.PNG";
 
 export default function Contact() {
   return (
