@@ -5,7 +5,7 @@ import { Form } from "react-bootstrap";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import img from  "../../images/my-image-latest.PNG";
+import img from   "../../images/newImage.PNG";
 
 export default function Contact() {
   return (
@@ -51,7 +51,7 @@ export default function Contact() {
       <div className="container mb-5">
         <div className="row g-3 pt-5 mt-5 contact-cont px-5">
           <div className="col-12 col-lg-6 contact-left  d-flex flex-column justify-content-center">
-            <img src={img} alt="" />
+            <img src={img} alt="" className="mb-4" />
           </div>
           <div className="col-12  col-lg-6  contact-form   ">
             <form className="  d-flex flex-column justify-content-center gap-3 px-3 for">

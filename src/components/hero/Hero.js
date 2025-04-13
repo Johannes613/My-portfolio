@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Carousel from "react-bootstrap/Carousel";
-import ExampleCarouselImage2 from "../../images/my-image-latest.PNG";
+import ExampleCarouselImage2 from "../../images/newImage.PNG";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function Hero() {

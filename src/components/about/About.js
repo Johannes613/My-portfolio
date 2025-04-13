@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import left_img from "../../images/10002.webp";
+import left_img from "../../images/about_img.PNG";
 import { useEffect, useRef, useState } from "react";
 import CountUp from "react-countup";
 
@@ -34,9 +34,9 @@ export default function About() {
     <div  className="about" id="about">
       <div className="container mx-auto">
         <div className="row">
-          <div className="col-md-5 left-section">
+          <div className="col-md-5 left-section text-center">
             <img
-              className="w-100 about-img"
+              className="w-100 about-img mx-auto text-center"
               src={left_img}
               alt="Medical Team"
             />

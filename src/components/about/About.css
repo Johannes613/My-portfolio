@@ -14,10 +14,10 @@ div.about {
     margin-bottom: 5px;
   }
   img.about-img {
-    height: 95% !important;
-    width: 95%;
+    /* height: 95% !important; */ 
+    width: 78% !important;
     object-fit: contain;
-    object-position: top;
+    object-position: center !important;
     text-align: end !important;
   }
   h1.about-head {
@@ -28,7 +28,7 @@ div.about {
   p.text-desc{
     color: gray;
     margin-bottom: 40px;
-    width: 80% !important;
+    width: 85% !important;
 
   }
   .projects-completed{
