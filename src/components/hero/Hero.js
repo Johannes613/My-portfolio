@@ -17,10 +17,10 @@ export default function Hero() {
             <div className="container-fluid">
               <div className="row align-items-center gx-5 hero-contain">
                 <div className="col-md-6">
-                  <Carousel.Caption data-aos="fade-up" className="text-left  left-side d-flex flex-column align-items-center align-items-md-start justify-content-center gap-2 mt-3">
+                  <Carousel.Caption data-aos="fade-up" className="text-left   left-side d-flex flex-column align-items-center align-items-md-start justify-content-center gap-2 mt-3">
                     <h5 className="hello-msg">Hello!</h5>
                     <h1 className="hero-name">I'm Yohannis Adamu</h1>
-                    <h3 className="mb-3 text-md-start text-center">
+                    <h3 className="mb-3  text-md-start text-center">
                       A Freelance Full-Stack Developer
                     </h3>
                     <div className="buttons">
