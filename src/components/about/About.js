@@ -37,13 +37,15 @@ export default function About() {
           <div className="col-md-5 left-section text-center">
             <img
               className="w-100 about-img mx-auto text-center"
+              data-aos="zoom-in"
               src={left_img}
               alt="Medical Team"
+
             />
           </div>
           <div data-aos="fade-up" className=" right-section col-md-7 text-center text-md-start ps-2">
-            <h1 className="about-head my-2">About Me</h1>
-            <p className="mt-2 lh-lg text-desc ">
+            <h1 className="about-head my-2 mt-5 mt-md-0">About Me</h1>
+            <p className="mt-2  lh-lg text-desc  w-75 mx-auto mx-md-0">
               A passionate software engineering student with a strong interest
               in full-stack development and AI.
             </p>

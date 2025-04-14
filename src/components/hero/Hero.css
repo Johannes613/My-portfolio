@@ -3,6 +3,7 @@
   margin-top: 75px;
   width: 67% !important;
   object-fit: cover;
+  z-index: -100;
 }
 
 .cont-img {
@@ -105,6 +106,9 @@
     font-size: 28px !important;
     text-align: center !important;
   }
+  p.value-info, p.key-info{
+    font-size: 14px;
+  }
 }
 
 .hire-me {
@@ -121,3 +125,4 @@
 .watch-video:hover .my-works {
   color: black !important;
 }
+

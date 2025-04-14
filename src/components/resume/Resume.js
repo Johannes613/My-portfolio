@@ -11,7 +11,7 @@ export default function Resume() {
         A passionate software engineering student with a strong interest in full-stack development and AI.
 
         </p>
-        <div className="row g-5 px-4">
+        <div className="row g-5 px-lg-4 px-sm-2">
           {experienceAndEducation.map((item, index) => (
             <div data-aos="fade-up" className="col-lg-6" key={index}>
               <div className="each-exp d-flex flex-column justify-content-center gap-1">

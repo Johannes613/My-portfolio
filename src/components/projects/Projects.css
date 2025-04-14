@@ -4,6 +4,7 @@
 .each-proj {
   border: none !important;
   background-color: #f4f7f6cc !important;
+  min-height: 200px;
 }
 .proj-tit {
   cursor: pointer;
@@ -16,6 +17,7 @@
 .project-img{
     width: 100% !important;
     height: 20vw !important;
+    min-height: 200px;
     max-height: 260px !important;
     object-fit: cover;
     border-radius: 7px !important;
@@ -68,8 +70,8 @@ div.filters button:hover {
 }
 @media (max-width: 768px) {
   button.each-filter{
-    font-size: 13px !important;
-    margin: 5px !important;
+    font-size: 14px !important;
+    margin: 8px !important;
   }
   
 }

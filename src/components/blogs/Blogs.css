@@ -4,15 +4,24 @@
     color: white !important;
     background-color: #ffffff1a !important;
     height: 590px !important;
+    overflow: hidden !important;
 }
 div.blogs{
     padding-top: 40px;
     margin-top: 100px;
+    
 }
 img.blog-img{
-    height: 270px;
+    height: 270px !important;
     object-fit: cover;
     cursor: pointer;
+    width: 100% !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease;
+
+}
+img.blog-img:hover{
+    transform: scale(1.03);
 }
 .blog-content{
     color: gray;

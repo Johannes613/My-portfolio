@@ -21,7 +21,7 @@ export default function Projects() {
           full-stack development and AI.
         </p>
 
-        <div data-aos="fade-up" className="filters mt-5 px-5">
+        <div data-aos="fade-up" className="filters mt-5 px-1 px-lg-5">
           <button onClick={() => handleCategory("all")} className="each-filter">
             All
           </button>
@@ -44,7 +44,7 @@ export default function Projects() {
             Upcoming
           </button>
         </div>
-        <div className="row px-5 ">
+        <div className="row px-1 px-lg-5 ">
           {projectList
             .filter(
               (each_proj) => currCat === "all" || currCat === each_proj.category
@@ -52,7 +52,7 @@ export default function Projects() {
             .map((each_proj) => {
               return (
                 <div 
-                data-aos="fade-up"
+                data-aos="zoom-in"
                   className={`${
                     each_proj.id % 2 === 0 ? "col-lg-7" : "col-lg-5"
                   } col-md-6 mt-4 pt-3 proj-tit `}

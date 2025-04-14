@@ -5,16 +5,18 @@ import { Form } from "react-bootstrap";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import img from   "../../images/newImage.PNG";
+import img from "../../images/newImage.PNG";
 
 export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="container">
-        <h1 data-aos="fade-up" className="about-head my- text-center mt-5">Contact Me</h1>
+        <h1 data-aos="fade-up" className="about-head my- text-center mt-5">
+          Contact Me
+        </h1>
         <p data-aos="fade-up" className="text-center resume-desc mt-4">
-        A passionate software engineering student with a strong interest in full-stack development and AI.
-
+          A passionate software engineering student with a strong interest in
+          full-stack development and AI.
         </p>
         <div className="row mt-5">
           <div data-aos="fade-up" className="col-lg-3 div-md-6">
@@ -50,8 +52,8 @@ export default function Contact() {
 
       <div className="container mb-5">
         <div className="row g-3 pt-5 mt-5 contact-cont px-5">
-          <div className="col-12 col-lg-6 contact-left  d-flex flex-column justify-content-center">
-            <img src={img} alt="" className="mb-4" />
+          <div className="col-12 col-lg-6 contact-left  d-flex flex-column justify-content-center align-items-end">
+            <img src={img} alt="" className="mb-5 me-auto" data-aos="zoom-in" />
           </div>
           <div className="col-12  col-lg-6  contact-form   ">
             <form className="  d-flex flex-column justify-content-center gap-3 px-3 for">

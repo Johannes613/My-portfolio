@@ -51,6 +51,8 @@ export default function Hero() {
                   <img
                     src={ExampleCarouselImage2}
                     className="hero-img img-fluid "
+                    data-aos="zoom-in"
+
                     alt=""
                   />
                 </div>
@@ -95,6 +97,8 @@ export default function Hero() {
                   <img
                     src={ExampleCarouselImage2}
                     className="hero-img img-fluid "
+                    data-aos="zoom-in"
+
                     alt=""
                   />
                 </div>
