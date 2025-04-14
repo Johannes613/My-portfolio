@@ -90,7 +90,7 @@
   /* background-color: red !important; */
   position: relative;
 }
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .left-side {
     position: absolute !important;
     width: 100% !important;
@@ -106,8 +106,14 @@
     font-size: 28px !important;
     text-align: center !important;
   }
+  p.text-desc{
+    width: 90% !important;
+  }
   p.value-info, p.key-info{
     font-size: 14px;
+  }
+  div.about{
+    margin-top: 70px;
   }
 }
 
