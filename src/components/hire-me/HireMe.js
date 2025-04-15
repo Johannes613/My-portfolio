@@ -65,8 +65,8 @@ export default function HireMe() {
           </div>
           <div data-aos="fade-up" className="col-md-6 col-lg-3">
             <div className="each-card d-flex align-items-center justify-content-center flex-column">
-              <h1 className="card-stat"> {isVisible && <CountUp start={0} end={10} duration={2} />}+</h1>
-              <p className="card-name">Happy Customers</p>
+              <h1 className="card-stat"> {isVisible && <CountUp start={0} end={100} duration={2} />}k+</h1>
+              <p className="card-name">Lines of code</p>
             </div>
           </div>
           <div data-aos="fade-up" className="col-md-6 col-lg-3">

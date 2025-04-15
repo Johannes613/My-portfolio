@@ -51,7 +51,7 @@ export default function Skills() {
           <div data-aos="fade-up" className="col-md-6 mb-4">
             <div className="each-skill px-4">
               <div className="skill-label skill-4  d-flex justify-content-between">
-                <p className="label">Node JS</p>
+                <p className="label">Python</p>
                 <p className="label">90%</p>
               </div>
               <ProgressBar variant="warning" className="progress-ba" now={90} />
