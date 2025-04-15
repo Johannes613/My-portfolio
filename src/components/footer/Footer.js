@@ -19,22 +19,22 @@ export default function Footer() {
               </p>
               <div className="social-media d-flex justify-content-center justify-content-md-start  m-0 p-0 gap-1">
                 <button className="btn">
-                  <a href="https://github.com/Johannes613">
+                  <a href="https://github.com/Johannes613" target="_blank">
                     <FiGithub className="icons" />
                   </a>
                 </button>
                 <button className="btn">
-                  <a href="https://www.linkedin.com/in/yohannis-adamu-1837832b9">
+                  <a href="https://www.linkedin.com/in/yohannis-adamu-1837832b9" target="_blank">
                     <SlSocialLinkedin className="icons" />
                   </a>
                 </button>
                 <button className="btn">
-                  <a href="https://www.facebook.com/share/162Qps5sq2/?mibextid=wwXIfr">
+                  <a href="https://www.facebook.com/share/162Qps5sq2/?mibextid=wwXIfr" target="_blank">
                     <FaFacebookF className="icons" />
                   </a>
                 </button>
                 <button className="btn">
-                  <a href="https://www.facebook.com/share/162Qps5sq2/?mibextid=wwXIfr">
+                  <a href="https://x.com/john40336738581?s=21" target="_blank">
                     <CiTwitter className="icons" />
                   </a>
                 </button>

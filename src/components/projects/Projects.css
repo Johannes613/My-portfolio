@@ -68,10 +68,14 @@ div.filters button:hover {
   align-items: center;
   border-radius: 7px !important;
 }
+
 @media (max-width: 768px) {
   button.each-filter{
     font-size: 14px !important;
     margin: 8px !important;
+  }
+  .resume-desc{
+    width: 100% !important;
   }
   
 }

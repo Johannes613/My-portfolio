@@ -24,7 +24,7 @@ export default function Hero() {
                       A Freelance Full-Stack Developer
                     </h3>
                     <div className="buttons">
-                      <button className="get-started">
+                      <button className="get-started get-hire">
                         <a
                           href="mailto:yohannisadmasu05@gmail.com"
                           className="hire-me"
@@ -70,7 +70,7 @@ export default function Hero() {
                       Based in Abu Dhabi
                     </h3>
                     <div className="buttons">
-                    <button className="get-started">
+                    <button className="get-started get-hire">
                         <a
                           href="mailto:yohannisadmasu05@gmail.com"
                           className="hire-me"
