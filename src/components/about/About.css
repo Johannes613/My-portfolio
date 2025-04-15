@@ -10,7 +10,7 @@ div.about {
  }
   div.each-info{
     width: 40% !important;
-    min-width: 340px !important;
+    min-width: 350px !important;
     margin-bottom: 5px;
     font-size: 17px;
   }
