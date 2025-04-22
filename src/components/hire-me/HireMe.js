@@ -44,7 +44,7 @@ export default function HireMe() {
         </p>
         <div data-aos="fade-up" className="text-center">
           <button className="my-3 text-center  get-started  text-uppercase">
-            <a href="https://drive.google.com/uc?export=download&id=1B1sHPF60-USldLGmY6rjUtvkwYrbJMxU">
+            <a href="">
               Download CV
             </a>
           </button>
