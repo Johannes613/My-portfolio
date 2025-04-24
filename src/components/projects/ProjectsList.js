@@ -16,7 +16,7 @@ export const projectList = [
   },
   {
     id: 2,
-    demo_link: "https://github.com/Johannes613/Designer-Portfolio",
+    demo_link: "https://designer-portfolio-git-master-yohannis-projects-47a37635.vercel.app/",
     source_code: "https://github.com/Johannes613/Designer-Portfolio",
     category: "latest",
     project_name: "Designer Portfolio",
@@ -41,7 +41,7 @@ export const projectList = [
 
   {
     id: 5,
-    demo_link: "https://github.com/Johannes613/Chat-App",
+    demo_link: "https://chat-app-jqtl.onrender.com",
     source_code: "https://github.com/Johannes613/Chat-App",
     category: "latest",
     project_name: "Chat App",
