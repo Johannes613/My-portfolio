@@ -80,7 +80,7 @@ export default function About() {
               completed
             </h5>
             <button className="my-5 text-center  get-started  text-uppercase">
-              <a href="">
+              <a href="https://drive.google.com/uc?export=download&id=11pO9yZ0AzMsEik5V_VEOQhICiMQp7x0d">
                 Download CV
               </a>
             </button>
